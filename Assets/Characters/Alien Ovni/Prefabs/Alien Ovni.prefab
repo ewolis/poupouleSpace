@@ -10,9 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 24312458024631791}
   - component: {fileID: 7981257478989366064}
-  m_Layer: 0
+  - component: {fileID: 1490966708291999409}
+  - component: {fileID: 1984675904146498965}
+  - component: {fileID: 4871673243724851765}
+  m_Layer: 11
   m_Name: Alien Ovni
-  m_TagString: Untagged
+  m_TagString: Ennemi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,3 +84,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1490966708291999409
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8672458874238125047}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cdd67e6e963a947fd8add758d475a524, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1984675904146498965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8672458874238125047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de59655c0a50e48f7a683280787fb60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startToTop: 1
+  speed: 5
+  timeToToggle: 5
+  timeToWait: 0
+--- !u!114 &4871673243724851765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8672458874238125047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94f0b9694cdc4dca83df6e00ac762b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToAttack: 5
+  laser: {fileID: 0}
+  laserSpeed: 500

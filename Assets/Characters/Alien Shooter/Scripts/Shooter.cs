@@ -25,7 +25,7 @@ public class Shooter : MonoBehaviour
     {
         if (!_delete)
         {
-            Debug.Log("[Alien] Hit ");
+            Invoke("Destruct", 0.5f);
             GetComponent<BoxCollider2D>().enabled = false;
             _delete = true;
             _animator.SetTrigger(HashDestroy);

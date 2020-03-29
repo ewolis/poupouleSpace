@@ -18,7 +18,7 @@ public class Meteor : MonoBehaviour
     {
         if (!_delete)
         {
-            Debug.Log("[Meteor] OnCollisionEnter2D > " + collision.gameObject.tag);
+            Invoke("Destruct", 0.5f);
             _animator.SetTrigger(HashDestroy);
             _delete = true;
 

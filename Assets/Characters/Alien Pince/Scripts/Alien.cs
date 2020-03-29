@@ -23,10 +23,13 @@ public class Alien : MonoBehaviour
     {
         if (!_delete)
         {
-            Debug.Log("[Alien] Hit ");
+            Invoke("Destruct", 1);
             GetComponent<BoxCollider2D>().enabled = false;
             _delete = true;
             _animator.SetTrigger(HashDestroy);            
+        } else
+        {
+            Destroy(gameObject);
         }
     }
 
