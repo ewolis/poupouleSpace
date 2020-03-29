@@ -7,13 +7,22 @@ public class Ovni : MonoBehaviour
     [SerializeField] private bool startToTop = true;
     [SerializeField] private float speed = 5f;
     [SerializeField] private float timeToToggle = 5f;
-    private float _move = 1;
+    [SerializeField] private float timeToWait = 0f;
+    private float _move = 0;
 
     void Start()
+    { 
+        Invoke("Started", timeToWait);
+    }
+
+    private void Started()
     {
         if (!startToTop)
         {
-            _move *= -1;
+            _move = -1;
+        } else
+        {
+            _move = 1;
         }
 
         InvokeRepeating("Toggle", timeToToggle, timeToToggle);
@@ -21,8 +30,10 @@ public class Ovni : MonoBehaviour
 
     void Update()
     {
-        
-        transform.Translate(Vector2.up * (_move * speed * Time.deltaTime));
+        if (_move != 0)
+        {
+            transform.Translate(Vector2.up * (_move * speed * Time.deltaTime));
+        }
     }
 
     private void Toggle()
