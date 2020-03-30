@@ -1234,7 +1234,12 @@ PrefabInstance:
     - target: {fileID: 2215297768666773867, guid: c12257b87ffde480bbbf4f2db927dbfe,
         type: 3}
       propertyPath: levelName
-      value: Prototype
+      value: Level2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2215297768666773867, guid: c12257b87ffde480bbbf4f2db927dbfe,
+        type: 3}
+      propertyPath: replaceCurrentScene
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2677906446670985791, guid: c12257b87ffde480bbbf4f2db927dbfe,
         type: 3}
