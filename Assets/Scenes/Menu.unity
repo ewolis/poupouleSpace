@@ -943,7 +943,7 @@ PrefabInstance:
     - target: {fileID: 2215297768666773867, guid: c12257b87ffde480bbbf4f2db927dbfe,
         type: 3}
       propertyPath: levelName
-      value: Prototype
+      value: Level4
       objectReference: {fileID: 0}
     - target: {fileID: 2677906446670985791, guid: c12257b87ffde480bbbf4f2db927dbfe,
         type: 3}
@@ -1389,7 +1389,7 @@ PrefabInstance:
     - target: {fileID: 2215297768666773867, guid: c12257b87ffde480bbbf4f2db927dbfe,
         type: 3}
       propertyPath: levelName
-      value: Prototype
+      value: Level3
       objectReference: {fileID: 0}
     - target: {fileID: 2677906446670985791, guid: c12257b87ffde480bbbf4f2db927dbfe,
         type: 3}
@@ -1539,7 +1539,7 @@ PrefabInstance:
     - target: {fileID: 2215297768666773867, guid: c12257b87ffde480bbbf4f2db927dbfe,
         type: 3}
       propertyPath: levelName
-      value: Prototype
+      value: Level5
       objectReference: {fileID: 0}
     - target: {fileID: 2677906446670985791, guid: c12257b87ffde480bbbf4f2db927dbfe,
         type: 3}
