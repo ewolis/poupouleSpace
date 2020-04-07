@@ -13,3 +13,5 @@ J'ai déjà généré l'application pour Android, iOS, Mac, Windows sans aucune 
 [![Alt text](https://i9.ytimg.com/vi/cgGnw8Jba9Q/mq2.jpg?sqp=CO3TsfQF&rs=AOn4CLDeJoWstUtJETeHJ8Pzq81pJOkLzQ)](https://youtu.be/cgGnw8Jba9Q)
 
 ## Amusez vous bien !
+
+Licence : GNU GPL
